@@ -4,6 +4,9 @@ body{
     align-items: center;
     height: 100vh;
     background-color: #000;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
 
 }
 .space{
@@ -32,7 +35,6 @@ body{
     position: absolute;
     /* background-color: blue; */
     transform: translate(-50%,-50%);
-     /* transform-origin: 150px 0; */
     animation: orbit 5s linear infinite 
 
 }
@@ -57,3 +59,5 @@ body{
     }
     
 }
+
+
