@@ -30,8 +30,9 @@ body{
     width: 200px;
     height: 200px;
     position: absolute;
-   
+    /* background-color: blue; */
     transform: translate(-50%,-50%);
+     /* transform-origin: 150px 0; */
     animation: orbit 5s linear infinite 
 
 }
@@ -39,7 +40,7 @@ body{
 .moon{
     width: 30px;
     height: 30px;
-    background-color: gray;;
+    background-color: #ff884d;;
     border-radius: 50%;
     position: absolute;
     top: 0;
