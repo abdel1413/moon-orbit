@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.space{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.earth{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.orbit{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+
+}
+
+.moon{
+    width: 30px;
+    height: 30px;
+    background-color: gray;;
+    border-radius: 50%;
+}
