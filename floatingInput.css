@@ -1,0 +1,20 @@
+body{
+    background-color: lightgray;
+
+}
+
+
+.input-container{
+    position: relative;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+}
+
+input label{
+    position: absolute;
+    
+}
