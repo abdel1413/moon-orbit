@@ -6,15 +6,53 @@ body{
 
 .input-container{
     position: relative;
-    border: 2px solid red;
+    
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 400px;
     height: 400px;
+    margin: 30px auto;
 
 }
 
-input label{
+.input-container label{
     position: absolute;
-    
+    top: 48%;
+    left:40%;
+    pointer-events: none;
+    transition: 0.3s ease all;
+    color: #888;
+    background-color: white;
+    padding: 0 5px;
+
+}
+
+.input-container input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+ 
+/* .input-container input:focus + label,
+ .input-container input:not(:placeholder-shown) + label{
+    top: -10px;
+    left: 10px;
+    font-size: .8em;
+    color: #4a90e2;
+
+} */
+
+  .input-container input:focus + label{
+    top: 43%;
+    left: 5%;
+    font-size: 0.8em;
+    color: black;
+    background-color: lightgray;
+
+  }
+.input-container input:focus::placeholder {
+  color: transparent;
 }
